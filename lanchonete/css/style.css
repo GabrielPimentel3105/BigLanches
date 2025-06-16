@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+        
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Open sans", sans-serif;
+}
+
+header{
+    background-image: url('../img/hero-bg.jpg');
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.logo{
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    color: #fff;
+}
+
+.menu-principal ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 400px;
+}
+
+.menu-principal ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.icones ul{
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    list-style: none;
+}
+
+.icones ul li a{
+    color:#fff;
+}
+
+.hero{
+    color: #fff;
+}
