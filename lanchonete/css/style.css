@@ -12,12 +12,15 @@ body{
 header{
     background-image: url('../img/hero-bg.jpg');
     background-size: cover;
+    background-position-y: center;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    height: 55px;
+    align-items: center;
 }
 
 .container{
@@ -37,11 +40,19 @@ nav{
     justify-content: space-around;
     list-style: none;
     width: 400px;
+    padding: 0 80px;
 }
 
 .menu-principal ul li a{
     color: #fff;
     text-decoration: none;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.menu-principal ul li a:hover{
+    color: #e69c00
 }
 
 .icones ul{
@@ -55,6 +66,42 @@ nav{
     color:#fff;
 }
 
-.hero{
+.bt{
+    padding: 10px 20px;
     color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #ffbe33;
+    font-size: 15px;
+    width: 90px;
+    display: inline-block;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.bt:hover{
+    background-color: #e69c00;
+}
+
+.hero{
+    height: 1000px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: #fff;
+}
+
+.hero .titulo{
+    font-family: "Dancing Script", cursive;
+    font-size: 38px;
+    
+}
+
+.hero .texto{
+    width: 600px;
+    font-size: 16px;
+    margin: 20px 0;
 }
