@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url('../img/hero-bg.jpg');
+    background-size: cover;
+    background-position-y: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 55px;
+    align-items: center; /*centro vertical*/
+}
+
+.container, main{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.logo{
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    color: #fff;
+    width: 200px;
+}
+
+.menu-principal ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 400px;
+    padding: 0 80px;
+}
+
+.menu-principal ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.menu-principal ul li a:hover{
+    color: #e69c00;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.icones ul{
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    list-style: none;
+}
+
+.icones ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.bt{
+    padding: 6px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #ffbe33;
+    font-size: 12px;
+    width: 90px;
+    display: inline-block;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.bt:hover{
+    background-color: #e69c00;
+}
+
+.hero{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.hero .titulo{
+    font-family: "Dancing Script", cursive;
+    font-size: 38px;
+    color: #fff;
+}
+
+.hero .texto{
+    color: #fff;
+    width: 400px;
+    font-size: 11px;
+    /* text-align: justify; */
+    margin: 20px 0;
+}
+
+.promo{
+    display: flex;
+    justify-content: center;
+    margin: 35px 0;
+}
+
+.promo .card{
+    background-color: #222831;
+    width: 450px;
+    border-radius: 3px;
+    margin: 5px;
+    display: flex;
+}
+
+.card .img{
+    border: 6px solid #ffbe33;
+    height: 160px;
+    width: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.img img{
+    width: 160px;
+}
+
+.desc-promo{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    
+}
+
+.desc-promo p{
+    font-family: "Dancing Script", cursive;
+    padding-bottom: 5px;
+    font-size: 11px;
+}
+
+.desc-promo .desconto{
+    font-size: 30px;
+}
+
+.desconto span{
+    font-size: 22px;
+}
+
+.vitrine h3{
+    padding: 25px;
+    font-family: 'Dancing Scripy',cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.mene-categoria{
+    display: flex;
+    width: 500px;
+    margin: 20px auto;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.categoria li a{
+    color: #222831;
+    text-decoration: none;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 0;
+    border-radius: 25px;
+}
+
+.categoria li .active{
+    background-color: #222831;
+    color: #fff;
+}
+
+.grid-itens{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 315px;
+    background-color: #222831;
+    border-radius: 15px;
+}
+
+.img-prod{
+    background-color: #f1f2f3;
+    text-align: center;
+    border-radius: 7px 7px 0 30px;
+}
+
+.img-prod img{
+    width: 280px;
+    margin: 20px;
+}
+
+.desc-prod{
+    color: #f1f2f3;
+    padding: 20px;
+}
+
+.descricao{
+    font-size: 1.2em;
+}
+
+.texto{
+    font-size: 0.9em;
+}
+
+.preco{
+    margin: 10px 0;
+}
+
+.round-bt{
+    color: #f1f2f3;
+    height: 30px;
+    width: 30px;
+    background-color: #ffbe33;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 6px;
+    box-sizing: border-box;
+}
+
+.rodape-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

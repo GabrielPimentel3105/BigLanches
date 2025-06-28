@@ -1,0 +1,9 @@
+body{
+    background-image: url("fundoo.jpg");
+    background-repeat: repeat;
+}
+.titulo-principal{
+    background-color: aliceblue;
+    text-align: center;
+    color: purple;
+}
